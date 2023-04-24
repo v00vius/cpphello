@@ -1,10 +1,10 @@
-# cpphello
+## cpphello
 An object oriented version of a "Hello World" program in C++
 that it should have been :)
 
-## compile and run
+### Compile and run
 To make it working, just download it and compile using your favorite compiler.
-For example, at coomand prompt:
+For example, at command prompt:
 - using gcc:
 
     `g++ hello.cpp -o hello`
@@ -19,5 +19,8 @@ Then type `./hello`
 
 Possible output:
 
-Hello world!
+_Hello world!_
+
+### Screenshot
+![](p01.png)
 
