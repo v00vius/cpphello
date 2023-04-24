@@ -1,9 +1,12 @@
 ## cpphello
-An object oriented version of a "Hello World" program in C++
+An object oriented `C++` version of a `"Hello World"`
 that it should have been :)
 
 ### Compile and run
-To make it working, just download it and compile using your favorite compiler.
+To make it working, just download `hello.cpp` and
+
+compile it using your favorite compiler.
+
 For example, at command prompt:
 - using gcc:
 
@@ -13,7 +16,7 @@ For example, at command prompt:
 
     `clang++ hello.cpp -o hello`
 
-This gives an executable 'hello'
+This gives an executable `'hello'`
 
 Then type `./hello`
 
