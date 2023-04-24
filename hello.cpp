@@ -1,5 +1,5 @@
 //
-// 23-04-23 19:40:47
+// hello.cpp
 //
 #include <iostream>
 
@@ -14,7 +14,10 @@ public:
 
 int main()
 {
-    auto hello = HelloWorld {};
+    auto hello = HelloWorld();
+    // Alternative variants to create an object 'hello' of a class 'HelloWorld' are:
+    //  auto hello = HelloWorld {};
+    //  HelloWorld hello;
 
     return 0;
 }
