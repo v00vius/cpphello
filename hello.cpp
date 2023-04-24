@@ -15,9 +15,13 @@ public:
 int main()
 {
     auto hello = HelloWorld();
-    // Alternative ways to create an object 'hello' of a class 'HelloWorld' are:
-    //  auto hello = HelloWorld {};
-    //  HelloWorld hello;
+
+    // Alternative ways to create an object of a class 'HelloWorld' are:
+    //  1. auto hello = HelloWorld {};
+    //  2. HelloWorld hello;
+    //  3. auto* phello = new HelloWorld();
+    //     delete phello;
+    //  4. auto phello = std::make_unique<HelloWorld>();
 
     return 0;
 }
