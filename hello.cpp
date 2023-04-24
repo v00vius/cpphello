@@ -15,7 +15,7 @@ public:
 int main()
 {
     auto hello = HelloWorld();
-    // Alternative variants to create an object 'hello' of a class 'HelloWorld' are:
+    // Alternative ways to create an object 'hello' of a class 'HelloWorld' are:
     //  auto hello = HelloWorld {};
     //  HelloWorld hello;
 
